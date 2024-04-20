@@ -10,7 +10,7 @@ void setup(){
 void draw(){
   background(255,0,0);
   PImage img; // declaro variable de imagen
-  img = loadImage("C:/Users/saulc/OneDrive/Escritorio/Problema_de_programaci_n_2/assets/Imagenes/WhatsApp Image 2024-04-19 at 1.28.13 PM.jpeg"); // ruta de la imagen
+  img = loadImage("KioskoLerma.jpeg"); // ruta de la imagen
   image(img, 400, 150); // cargo la imagen en una posición xy
   
    // Dibuja el círculo
@@ -34,8 +34,9 @@ void draw(){
   // Agrega tres líneas de texto en la esquina inferior derecha
   textAlign(RIGHT, BOTTOM); // Alinea el texto a la derecha y abajo
   textSize(25); // Tamaño de la fuente
-  text("José Pedro Balmaceda Pascal", width - 10, height - 10); // Primera línea de texto
-  text("10 al 29 de septiembre de 2024", width - 10, height - 30); // Segunda línea de texto
+   text("Recuerdatorios de la historia de Lerma", width - 10, height - 300); // Primera línea de texto
+  text("José Pedro Balmaceda Pascal", width - 10, height - 100); // Segunda línea de texto
+  text("10 al 29 de septiembre de 2024", width - 10, height - 200); // Tercera línea de texto
 
 }
 

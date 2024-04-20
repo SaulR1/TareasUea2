@@ -1,0 +1,4 @@
+1. Abrir el archivo de proecesing
+2.Presionar Ctrl+r
+
+(Para cerrarlo es click+esc)

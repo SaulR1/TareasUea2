@@ -10,7 +10,7 @@ void setup(){
 void draw(){
   background(255,0,0);
   PImage img; // declaro variable de imagen
-  img = loadImage("KioskoLerma.jpeg"); // ruta de la imagen
+  img = loadImage("../assets/Imagenes/WhatsApp Image 2024-04-19 at 1.28.13 PM.jpeg"); // ruta de la imagen
   image(img, 400, 150); // cargo la imagen en una posición xy
   
    // Dibuja el círculo
